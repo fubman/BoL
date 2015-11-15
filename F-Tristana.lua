@@ -3,10 +3,10 @@ testtest
 if myHero.charName ~= "Tristana" then return end
 --require 'HPrediction'
 require "VPrediction"
-local Version = "0.005"
+local Version = "0.001"
 local AutoUpdate = true
 function ScriptMsg(msg)
-  print("<font color=\"#daa520\"><b>Tristana Baguette:</b></font> <font color=\"#FFFFFF\">"..msg.."</font>")
+  print("<font color=\"#daa520\"><b>F-Tristana :</b></font> <font color=\"#FFFFFF\">"..msg.."</font>")
 end
 
 ---------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ end
 
 -- called once when the script is loaded
 function OnLoad()
-print("<b><font color=\"#FF001E\"> Tristana </font></b><font color=\"#FF980F\"> baguette </font><font color=\"#FF001E\"></font><b><font color=\"#FF001E\"> loaded </font><font color=\"#FF001E\"><font color=\"#FF980F\"> GL </font><font color=\"#FF001E\"></font><b><font color=\"#FF001E\"> & </font><font color=\"#FF001E\"><font color=\"#FF980F\"><font color=\"#FF001E\"><font color=\"#FF980F\"> HF </font><font color=\"#FF001E\"></font>")
+print("<b><font color=\"#FF001E\"> F</font></b><font color=\"#FF980F\">-Tristana</font><font color=\"#FF001E\"></font><b><font color=\"#FF001E\"> loaded </font><font color=\"#FF001E\"><font color=\"#FF980F\"> GL </font><font color=\"#FF001E\"></font><b><font color=\"#FF001E\"> & </font><font color=\"#FF001E\"><font color=\"#FF980F\"><font color=\"#FF001E\"><font color=\"#FF980F\"> HF </font><font color=\"#FF001E\"></font>")
 TargetSelector = TargetSelector(TARGET_LOW_HP_PRIORITY, 920)
 Variables()
 Menu()
