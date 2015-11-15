@@ -1,3 +1,5 @@
+testtest
+
 if myHero.charName ~= "Tristana" then return end
 --require 'HPrediction'
 require "VPrediction"
@@ -13,10 +15,10 @@ local Host = "raw.github.com"
 
 local ScriptFilePath = SCRIPT_PATH..GetCurrentEnv().FILE_NAME
 
-local ScriptPath = "tipie/BOL/master/Tristana-baguette.lua".."?rand="..math.random(1,10000) 
+local ScriptPath = "fubman/BoL/master/F-Tristana.lua".."?rand="..math.random(1,10000) 
 local UpdateURL = "https://"..Host..ScriptPath
 
-local VersionPath = "tipie/BOL/master/Tristana-baguette.version".."?rand="..math.random(1,10000)
+local VersionPath = "fubman/BoL/master/F-Tristana.version".."?rand="..math.random(1,10000)
 local VersionData = tonumber(GetWebResult(Host, VersionPath))
 
 if AutoUpdate then
